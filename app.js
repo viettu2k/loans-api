@@ -6,6 +6,11 @@ const logger = require("morgan");
 
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
+const customersRouter = require("./routes/customers");
+const invoicesRouter = require("./routes/invoices");
+const loansRouter = require("./routes/loans");
+const paymentsRouter = require("./routes/payments");
+const settingsRouter = require("./routes/settings");
 
 const app = express();
 
